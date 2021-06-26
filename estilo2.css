@@ -1,0 +1,13 @@
+body{
+	background-image: url("imagens/fundocobrinha.png");
+	
+}
+
+div{
+   position: absolute;
+   right: 70px;
+   left: 25%;
+   top: 110px;
+
+}
+
