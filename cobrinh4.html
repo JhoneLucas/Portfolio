@@ -4,9 +4,8 @@
 	<meta charset="utf-8">
 	<title>Cobrinh4</title>
 	<link rel="stylesheet" href="estilo1.css">
-	<link rel="stylesheet" href="estilo2.css">
 </head>
-<body>
+<body class="bd">
 <input type="checkbox" id="menubut">
     <label for="menubut"><img class="menubut" src="imagens/menubut.svg">
     </label>
@@ -18,29 +17,25 @@
             <li><a href="jogo.html">Jogos(Beta)</a></li>
         </ul>
     </nav>
-    <br>
-    <br>
-    <br>
-    <center><h2 class="cob"><mark>O jogo da Cobrinh4</mark></h2></center>
-<div>
-<canvas class="centro"id="stage" width="600" height="600"></canvas>
+<div id="cobra">
+<canvas class="centro"id="stage" width="400" height="400"></canvas>
 <script type="text/javascript">
 	window.onload = function(){
 		var stage = document.getElementById('stage');
 		var ctx = stage.getContext("2d");
         document.addEventListener ("keydown", keyPush);
-		setInterval(game, 85);
+		setInterval(game, 60);
 		const vel = 1; 
 		var vx = vy = 0;
         var px = 10;
         var py = 15;
-        var tp = 30;
+        var tp = 20;
         var qp = 20;
         var ax = ay = 15;
 		var trail = []; 
 		tail = 5;
 
-		function game() {
+		function game(){
         px += vx;
         py += vy;
         if (px < 0 )  {
