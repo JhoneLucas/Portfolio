@@ -3,7 +3,7 @@
 }
 
 #btn{
-	margin: 30px auto;
+	margin: 5px auto;
 	position: fixed;
 }
 
@@ -18,12 +18,12 @@
 
 .menubut{
  padding: 10px 10px;
- width: 25px;
- height: 25px;
+ width: 20px;
+ height: 20px;
  margin: 0px;
  color: #D9A74A;
  background:#D97C2B;
- border: 1px solid black;
+ border: 0px solid black;
  border-radius: 5px;
  text-align: center;
  user-select: none;
@@ -50,7 +50,7 @@ input[type="checkbox"]{
 nav{
 	
 	width: 200px;
-	height: 100%;
+	height: 100px;
 	left: -200px;
 	position: absolute;
 	transition: all .5s;
