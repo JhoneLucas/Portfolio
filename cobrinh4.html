@@ -24,7 +24,7 @@
 		var stage = document.getElementById('stage');
 		var ctx = stage.getContext("2d");
         document.addEventListener ("keydown", keyPush);
-		setInterval(game, 60);
+		setInterval(game, 80);
 		const vel = 1; 
 		var vx = vy = 0;
         var px = 10;
@@ -77,7 +77,7 @@
              	ax = Math.floor(Math.random()*qp);
              	ay = Math.floor(Math.random()*qp);
              }
-         }
+             }
 
              function keyPush(event){
 			switch(event.keyCode){

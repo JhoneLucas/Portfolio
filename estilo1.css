@@ -101,8 +101,15 @@ mark{
 #cobra{
 	position:fixed;
 	left: 400px;
-  
-
 }
+.bg{background-image: url(imagens/fundo.png); background-repeat:no-repeat; background-size: cover; background-position: center; background-attachment: fixed;
+}
+		
+.fd{font-size: 25px;
+}
+
+.direita{float: right;
+}
+
 
 
