@@ -1,0 +1,115 @@
+#cp{
+	padding: 10px;
+}
+
+#btn{
+	margin: 5px auto;
+	position: fixed;
+}
+
+
+#ct{
+  margin: 5px 170px auto;
+}
+#ftp{
+	position: relative;
+	left: 350px;
+}
+
+.menubut{
+ padding: 10px 10px;
+ width: 20px;
+ height: 20px;
+ margin: 0px;
+ color: #D9A74A;
+ background:#D97C2B;
+ border: 0px solid black;
+ border-radius: 5px;
+ text-align: center;
+ user-select: none;
+ cursor: pointer;
+ position: fixed;
+
+}
+.menubut:hover{
+background: #D99441; 
+transition: background .5s;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+body{
+	font-family: arial;
+	padding: 10px;
+	margin: 30px auto ;
+}
+input[type="checkbox"]{
+	display: none;
+}
+nav{
+	
+	width: 200px;
+	height: 100px;
+	left: -200px;
+	position: absolute;
+	transition: all .5s;
+}
+input[type="checkbox"]:checked ~ nav{
+	transform: translatex(200px);
+}
+ul{
+    list-style: none ;
+	top:  70px; 
+	position: absolute;
+	width: 80%;
+    font-size: 25px;
+	
+}
+a{
+	background-color:none;
+	display: block;
+	padding: 25px 0px;
+	color: #D97C2B;
+}
+a:hover{
+	background-color: none;
+	color: rgb(0, 0, 0);
+}
+label{
+	padding: 15px;
+	position: absolute;
+	z-index: 1;
+}
+mark{
+	background-color: #D97C2B;
+}
+.bg{background-image: url(imagens/fundo.png); background-repeat:no-repeat; background-size: cover; background-position: center; background-attachment: fixed;
+}
+
+.fd{font-size: 25px;
+}
+
+
+/*CSS Cobrinha <link rel="stylesheet" href="estilo2.css">*/
+
+.bd{
+	background-image: url("imagens/fundocobrinha.png");
+	
+}
+
+#cobra{
+	position:fixed;
+	left: 400px;
+}
+.bg{background-image: url(imagens/fundo.png); background-repeat:no-repeat; background-size: cover; background-position: center; background-attachment: fixed;
+}
+		
+.fd{font-size: 25px;
+}
+
+.direita{float: right;
+}
+
+
+
