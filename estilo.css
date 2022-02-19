@@ -13,7 +13,7 @@
 }
 #ftp{
 	position: relative;
-	left: 350px;
+	
 }
 
 .menubut{
@@ -66,13 +66,13 @@ ul{
     font-size: 25px;
 	
 }
-a{
+#menu{
 	background-color:none;
 	display: block;
 	padding: 25px 0px;
 	color: #D97C2B;
 }
-a:hover{
+#menu:hover{
 	background-color: none;
 	color: rgb(0, 0, 0);
 }
@@ -87,7 +87,8 @@ mark{
 .bg{background-image: url(imagens/fundo.png); background-repeat:no-repeat; background-size: cover; background-position: center; background-attachment: fixed;
 }
 
-.fd{font-size: 25px;
+.fd{
+	font-size: 25px;;
 }
 
 
@@ -99,8 +100,9 @@ mark{
 }
 
 #cobra{
-	position:fixed;
-	left: 400px;
+	position: fixed;
+	left: 500px;
+	top: 150px;
 }
 .bg{background-image: url(imagens/fundo.png); background-repeat:no-repeat; background-size: cover; background-position: center; background-attachment: fixed;
 }
@@ -111,5 +113,18 @@ mark{
 .direita{float: right;
 }
 
+#borda{
+	border-radius: 10px;
+}
+
+div.box {
+	width: 150px;
+	display: inline-block;
+}
+div.box2 {
+	margin-top: 40px;
+	width: 160px;
+	display: inline-block;
+}
 
 
