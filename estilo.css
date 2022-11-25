@@ -101,8 +101,8 @@ mark{
 
 #cobra{
 	position: fixed;
-	left: 500px;
-	top: 150px;
+	left: 40%;
+	top: 180px;
 }
 .bg{background-image: url(imagens/fundo.png); background-repeat:no-repeat; background-size: cover; background-position: center; background-attachment: fixed;
 }
@@ -126,5 +126,14 @@ div.box2 {
 	width: 160px;
 	display: inline-block;
 }
-
+#instrucao{
+	position: relative;
+	right: 25%;
+	top: 0px;
+}
+#controle{
+	position: relative;
+	top: 100px;
+	left: 15%;
+}
 
