@@ -1,0 +1,93 @@
+.foto-perfil {
+	height: 100%;
+	width: auto;
+	max-width: 100%;
+	border-radius: 50%;
+}
+.corPrimaria{
+	background-color:  #B3B6B7 ;
+}
+.fundo{
+	background-color: #B3B6B7;
+}
+.corSecundaria{
+	background-color: whitesmoke;
+}
+.corNav{
+	background-color: #000000   ;
+}
+p{ 
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Courier, monospace, 'Arial Narrow', Arial, sans-serif;
+	color: #2B3B51 !important;
+}
+.icones{
+	padding-left: 5px;
+	color: whitesmoke;
+}
+.titulosBrancos{
+	text-decoration: underline;
+	text-underline-position: below;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: whitesmoke;
+}
+.titulosAzul{
+	text-decoration: underline;
+	text-underline-position: below;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #000000  !important;
+}
+.textoBranco{
+	color: whitesmoke !important;
+}
+.textoPreto{
+	color: #000000 !important;
+}
+html{
+	scroll-behavior: smooth;
+}
+--------------------------Cobrinha-----------------------------
+.fundoCobrinh4{
+		background-image: url("imagens/fundocobrinha.png");
+}
+
+#cobra{
+	position: fixed;
+	left: 40%;
+	top: 180px;
+}
+.bg{background-image: url(imagens/fundo.png); background-repeat:no-repeat; background-size: cover; background-position: center; background-attachment: fixed;
+}
+		
+.fd{font-size: 25px;
+}
+
+.direita{float: right;
+}
+
+#borda{
+	border-radius: 10px;
+}
+
+div.box {
+	width: 150px;
+	display: inline-block;
+}
+div.box2 {
+	margin-top: 40px;
+	width: 160px;
+	display: inline-block;
+}
+#instrucao{
+	position: relative;
+	right: 25%;
+	top: 0px;
+}
+#controle{
+	position: relative;
+	top: 100px;
+	left: 15%;
+}

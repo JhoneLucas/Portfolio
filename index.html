@@ -1,37 +1,294 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-	<meta charset="utf-8">
-	<title>Página Inicial</title>
-	<link rel="stylesheet" href="estilo.css">
-	<link rel="shortcut icon" href="imagens/house.png">
+  <meta charset="utf-8">
+  <title>Jhone Diniz</title>
+  <link rel="shortcut icon" href="imagens/house.png">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/f543ec595d.js" crossorigin="anonymous"></script>
 </head>
-<body class="bg">
-	<input type="checkbox" id="menubut">
-	<label for="menubut"><img class="menubut" src="imagens/menubut.svg">
-	</label>
-	<nav id="btn">
-		<ul>
-			<li><a id="menu" href="index.html">Início</a></li>
-			<li><a id="menu" href="projetos.html">Trabalhos</a></li>
-			<li><a id="menu" href="contatos.html">Contato</a></li>
-			<li><a id="menu" href="jogo.html">Jogos(Beta)</a></li>
-		</ul>
-	</nav>
-<div id="ct">
-	<div id="ftp">
-		<h1 id="tp"><mark>Jhone Diniz</mark></h1>
-        <img id="borda" src="imagens/jhone.png" border="1px" color="black" >
+
+<body class="corPrimaria">
+  <nav class="corNav navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand textoBranco" href="index.html">Jhone Diniz</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-3">
+        </ul>
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link textoBranco" href="#projetos">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link textoBranco" href="#sobre-mim">Sobre Mim</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link textoBranco" href="#experiencias">Experiências</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link textoBranco" href="#contatos">Contato</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link textoBranco"
+              href="https://drive.google.com/file/d/1Nw0hNJjn2qIi11RcWOAQ_O4QgrmrAXPZ/view">Curriculo</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link textoBranco" href="jogo.html">Jogos (Beta)</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div>
-    	<h3 class="fd"><mark><u>Sobre mim</u></mark></h3>
-    	<p class="fd"><mark>Olá, Me chamo Jhone Diniz Tenho 20 anos e gostaria de desejar <b>Boas vindas!</b> ao meu Portfólio!<br/>
-		Curso Analise e Desenvolvimento de Sistemas e estou no meu quarto semestre da faculdade, tenho algumas experiencias com<br/>  
-		Desenvolvimento web, Programação orientada a objetos(C#, VB) Banco de dados(SQL, HANA) e conhecimentos em Power BI.<br/>
-		Atualmente trabalho como consultor SQL na 
-		<br>Plime Consultoria (Prestador de Serviços)...<br>
-		<b>Veja agora</b> algumas das minhas habilidades como programador explorando em meu web stie!</mark></p>
+  </nav>
+  <section class="jumbotron text-center corPrimaria">
+    <div class="container">
+      <br>
+      <br>
+      <img class="foto-perfil" src="imagens/jhone.png" alt="">
+      <h1 class="jumbotron-heading">
+        <font style="vertical-align: inherit;">
+          <font class="textoBranco" style="vertical-align: inherit;">Jhone Diniz</font>
+        </font>
+      </h1>
+      <p class="lead text-muted ">
+        <font style="vertical-align: inherit;">
+          <font class="textoBranco" style="vertical-align: inherit;">Analista de sistemas, Desenvolvedor de software e
+            Analista de Dados
+          </font>
+        </font>
+      </p>
+      <a href="https://www.linkedin.com/in/jhone-lucas-bb87481a4/"><i class="icones fab fa-linkedin"></i></a>
+      <a href="https://github.com/JhoneLucas"><i class="icones fab fa-github"></i></a>
+      <a href="https://www.instagram.com/jhoneluc4s/?hl=pt-br"><i class="icones fab fa-instagram"></i></a>
+      <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5515991929611&text=Ol%C3%A1"><i
+          class="icones fab fa-whatsapp"></i></a>
     </div>
- </div>
+  </section class="jumbotron text-center corSecundaria ">
+  <div class="album py-5 bg-light" id="projetos">
+    <div class="container">
+      <h2 style=" padding-top:90px; " class="jumbotrom heading text-center titulosAzul">Projetos</h2>
+      <br>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top"
+              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Miniatura [100%x225]" style="height: 300px; width: 100%; display: block;" src="imagens/pbi.png"
+              data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">Esta é uma das minhas dashboard que fiz durante o curso do
+                    Leonardo Karpinski, Powe BI Experience. </font>
+                  <font style="vertical-align: inherit;"></font>
+                </font>
+              </p>
+              <ul>
+                <li>Power BI</li>
+                <li>Excel</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a
+                    href="https://app.powerbi.com/view?r=eyJrIjoiNWJhYzEwMWMtNGY5NC00MWI3LTk2OTYtZWY0Y2JiMzM1N2I5IiwidCI6ImI2YTc3ZDdkLTBiODctNGIwNS1hZGQzLTE3Y2Y0OTdiYmMzZCJ9">
+                    <button type="button" class="btn btn-sm btn-outline-success">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Ver Projeto</font>
+                      </font>
+                    </button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top"
+              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Miniatura [100%x225]" src="imagens/pbitpt.png" data-holder-rendered="true"
+              style="height: 300px; width: 100%; display: block;">
+            <div class="card-body">
+              <p class="card-text">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">Esta é outra de minhas dashboard porém utilizei uma base de
+                    dados diferente, nessa dashboard trabalhei com o Microsoft SQL Server.</font>
+                </font>
+              </p>
+              <ul>
+                <li>Power BI</li>
+                <li>Microsoft SQL Server</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Sobre Mim-->
+  <section class="jumbotron text-center corPrimaria">
+    <div style=" padding-top:10px; " class="container" id="sobre-mim">
+      <h2  class="jumbotrom-heading titulosBrancos">Sobre mim</h2>
+      <br>
+      <p class="text-center lead tex textoBranco">Olá, Me chamo Jhone Diniz Tenho 21 anos sou de Sorocaba interior de
+        São Paulo,
+        curso Analise e
+        Desenvolvimento de Sistemas
+        e estou no meu quarto semestre da faculdade, tenho algumas experiências com desenvolvimento web, programação
+        orientada a objetos, banco de dados e conhecimentos em Power BI.
+        Atualmente trabalho como Analista de Sistemas na Plime Consultoria no regime PJ, tenho muita vontade de
+        aprender, gosto de aprender coisas novas no dia a dia
+        tenho experiencia com as principais tecnologias do mercado no cenário atual, tenho muito a aprender não sou
+        sênior mas também não me considero júnior pelo meu nível de
+        conhecimento, particularmente me sinto confortável com desafios isso me estimula a aprender mais e descobrir
+        novas técnicas de fazer algo novo.</p>
+    </div>
+  </section>
+  <!--Experiências-->
+  <div class="album py-5 bg-light" id="projetos">
+    <div style=" padding-top:10px; " class="container " id="experiencias">
+      <h2 class="jumbotrom heading text-center titulosAzul">Experiências</h2>
+      <br>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top"
+              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Miniatura [100%x225]" style="height: 300px; width: 100%; display: block;" src="imagens/imgGroppo.png"
+              data-holder-rendered="true">
+            <div class="card-body">
+              <p class="card-text">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">Durante meu tempo de estágio na Groppo fiz parte de uma equipe
+                    de suporte técnico que tinha como sua principal função atender e
+                    solucionar chamados voltados ao ERP desenvolvido pela própria Groppo, lá tinha um contato básico com
+                    o SQL normalmente os problemas se resolviam dentro do próprio ERP.</font>
+                  <font style="vertical-align: inherit;"></font>
+                </font>
+              </p>
+              <ul>
+                <li>ERP Adapta</li>
+                <li>SQL</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top"
+              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Miniatura [100%x225]" src="imagens/imgLab1.png" data-holder-rendered="true"
+              style="height: 300px; width: 100%; display: block;">
+            <div class="card-body">
+              <p class="card-text">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">Na LAB1 também fiz estágio porem lá já era mais voltado para
+                    oque eu queria naquele momento, lá foi onde aprendi muitas coisas e simplesmente
+                    foi uma das melhores empresas onde trabalhei. Aprendi muita coisa mesmo porém lá os projetos eram
+                    mais voltados a linguagem C# / CSharp, quando entrei minha principal função era de Desenvolvedor
+                    Add-ons para automatizar tarefas do SAP Business One, depois fui alocado para dar manutenção em um
+                    web site integrado ao SAP baseado na linguagem ASP.NET um dos meus maiores desafios.</font>
+                </font>
+              </p>
+              <ul>
+                <li>C# / CSharp</li>
+                <li>Visual Basic</li>
+                <li>Microsoft SQL Server</li>
+                <li>ASP.NET</li>
+                <li>VB.NET</li>
+                <li>Github</li>
+                <li>SAP Business One</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.linkedin.com/company/lab1-consultoria-sap/posts/">
+                    <button type="button" class="btn btn-sm btn-outline-success">
+                      <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Linkedin</font>
+                      </font>
+                    </button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="margin-top: -220px; display: block;" class="col-md-6">
+          <div  class="card mb-4 box-shadow">
+            <img class="card-img-top"
+              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+              alt="Miniatura [100%x300]" src="imagens/imgPlime.png" data-holder-rendered="true"
+              style="height: 300px; width: 100%; display: block;">
+            <div class="card-body">
+              <p class="card-text">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">Na Plime eu faço parte de uma equipe de analistas do ERP TOTVS
+                    RM, onde nossas principais tarefas são as de extrair relatórios
+                    elaborar planilhas dinâmicas alimentadas pelo banco de dodos, criar relatórios automatizados com a
+                    ferramente Reports dentro do próprio ERP,
+                    auxiliar no controle de usuários e corrigir erros nos principais eventos enviados ao eSocial</font>
+                </font>
+              </p>
+              <ul>
+                <li>Microsoft SQL Server</li>
+                <li>Excel</li>
+                <li>eSocial</li>
+                <li>TOTVS RM</li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Meu emprego atualmente!</font>
+                  </font>
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <!--Contato-->
+  <section>
+    <div id="contatos">
+      <h2 style=" padding-top:10px; " class="jumbotrom heading text-center titulosBrancos">Contato</h2>
+      <div class="container-fluid">
+        <h3 class="text-center textoBranco">Disponível para oportunidades</h3>
+        <h4 class="text-center textoBranco"><i class="textoBranco fab fa-google"></i> Jhonylucasmorisdinis@gmail.com</h4>
+        <center>
+          <a href="https://www.linkedin.com/in/jhone-lucas-bb87481a4/"><i class="textoBranco fab fa-linkedin"></i></a>
+          <a href="https://github.com/JhoneLucas"><i class="textoBranco fab fa-github"></i></a>
+          <a href="https://www.instagram.com/jhoneluc4s/?hl=pt-br"><i class="textoBranco fab fa-instagram"></i></a>
+          <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5515991929611&text=Ol%C3%A1"><i
+              class="textoBranco fab fa-whatsapp"></i></a>
+        </center>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div id="contatos">
+      <h2 class="jumbotrom heading text-center textoBranco"></h2>
+      <br>
+      <div class="container-fluid">
+        <h3 class="text-center"></h3>
+        <h4 class="text-center textoBranco"></h4>
+      </div>
+    </div>
+  </section>
 </body>
+
 </html>
