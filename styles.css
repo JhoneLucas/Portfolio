@@ -5,16 +5,16 @@
 	border-radius: 50%;
 }
 .corPrimaria{
-	background-color:  #B3B6B7 ;
+	background-color:  #5786d3 ;
 }
 .fundo{
-	background-color: #B3B6B7;
+	background-color: #5786d3 ;
 }
 .corSecundaria{
 	background-color: whitesmoke;
 }
 .corNav{
-	background-color: #000000   ;
+	background-color: #002f7d;
 }
 p{ 
 	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Courier, monospace, 'Arial Narrow', Arial, sans-serif;
@@ -38,7 +38,7 @@ p{
 	padding-bottom: 20px;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #000000  !important;
+	color: #002f7d  !important;
 }
 .textoBranco{
 	color: whitesmoke !important;
@@ -48,6 +48,40 @@ p{
 }
 html{
 	scroll-behavior: smooth;
+}
+@media (max-width: 1280px)
+{
+	.dropJogos
+   {
+    display: none;
+   }
+}
+nav li a:hover{
+	background-color: #0d6efd;
+	border-radius: 15px;
+	padding: 5px;
+}
+.drop{
+	position: absolute;
+	background-color:#002f7d;
+	display: none;
+	width: 180px;
+	left: 90%;
+	top: 49px;
+	border-radius: 5px;
+	padding: 15px;
+	font-weight: 10px;
+}
+
+.drop a{
+    display: block;
+}
+
+.dropJogos:hover .drop{
+	display: block;
+}
+div a{
+	text-decoration: none;
 }
 --------------------------Cobrinha-----------------------------
 .fundoCobrinh4{
