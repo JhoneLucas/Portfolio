@@ -5,20 +5,20 @@
 	border-radius: 50%;
 }
 .corPrimaria{
-	background-color:  #CB534F ;
+	background-color:  #556168 ;
 }
 .fundo{
-	background-color: #5786d3 ;
+	background-color: #556168 ;
 }
 .corSecundaria{
 	background-color: whitesmoke;
 }
 .corNav{
-	background-color: #BF0000;
+	background-color: #000000;
 }
 p{ 
 	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Courier, monospace, 'Arial Narrow', Arial, sans-serif;
-	color: #2B3B51 !important;
+	color: #556168 !important;
 }
 .icones{
 	padding-left: 5px;
@@ -38,13 +38,15 @@ p{
 	padding-bottom: 20px;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #830D04  !important;
+	color: #556168 !important;
 }
 .textoBranco{
 	color: whitesmoke !important;
+	text-align: justify;
 }
 .textoPreto{
 	color: #000000 !important;
+	text-align: justify;
 }
 html{
 	scroll-behavior: smooth;
@@ -57,13 +59,13 @@ html{
    }
 }
 nav li a:hover{
-	background-color: #830D04;
+	background-color: #556168;
 	border-radius: 15px;
 	padding: 5px;
 }
 .drop{
 	position: absolute;
-	background-color:#830D04;
+	background-color:#556168;
 	display: none;
 	width: 180px;
 	left: 90%;
@@ -82,6 +84,25 @@ nav li a:hover{
 }
 div a{
 	text-decoration: none;
+}
+
+.btnLink {
+    color: #556168; /* Cor da fonte inicial */
+    border: 2px solid #556168; /* Cor da borda inicial */
+    background-color: transparent; /* Fundo transparente */
+    padding: 5px 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    text-align: center; /* Centralizar texto */
+    text-decoration: none; /* Remover sublinhado (se for um link) */
+    transition: all 0.3s ease; /* Animação suave para o hover */
+    cursor: pointer; /* Mostrar cursor de ponteiro */
+}
+
+.btnLink:hover {
+    background-color: #556168; /* Cor de fundo ao passar o mouse */
+    color: #FFFFFF; /* Cor do texto ao passar o mouse */
+    border-color: #556168; /* Cor da borda ao passar o mouse */
 }
 --------------------------Cobrinha-----------------------------
 .fundoCobrinh4{
