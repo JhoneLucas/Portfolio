@@ -1,458 +1,279 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-  <meta charset="utf-8">
-  <title>Jhone Diniz</title>
-  <link rel="shortcut icon" href="imagens/user-profile.png">
-  <link rel="stylesheet" href="styles.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script type="text/javascript" src="script.js" defer></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/f543ec595d.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jhone Diniz | Data Analyst</title>
+    <link rel="shortcut icon" href="imagens/user-profile.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/f543ec595d.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">JD<span>.</span></a>
+            <div class="mobile-toggle"><i class="fas fa-bars"></i></div>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="https://drive.google.com/file/d/1Xl4vz1FKp-qicGAAfplCWX7F1Rm09oln/view?usp=drive_link" target="_blank" class="btn-resume">Currículo</a></li>
+            </ul>
+        </div>
+    </nav>
 
-<body class="corPrimaria">
-  <nav class="corNav navbar navbar-expand-lg navbar-light">
-    <div class="container-fluid">
-      <a class="navbar-brand textoBranco" href="index.html">Jhone Diniz</a>
-      <button class="navbar-toggler btn btn-outline-primary " type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-3">
-        </ul>
-        <ul class="navbar-nav">
-          <li class="nav-item navIntuitiva">
-            <a class="nav-link textoBranco" href="#projetos">Projetos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link textoBranco" href="#sobre-mim">Sobre Mim</a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link textoBranco" href="#experiencias">Experiências</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link textoBranco" href="#contatos">Contato</a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link textoBranco"
-              href="https://drive.google.com/file/d/1Xl4vz1FKp-qicGAAfplCWX7F1Rm09oln/view?usp=drive_link">Curriculo</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <section class="jumbotron text-center corPrimaria">
-    <div class="container">
-      <br>
-      <br>
-      <img class="foto-perfil" src="imagens/jhone.png" alt="">
-      <h1 class="jumbotron-heading">
-        <font style="vertical-align: inherit;">
-          <font class="textoBranco" style="vertical-align: inherit;">Jhone Diniz</font>
-        </font>
-      </h1>
-      <p class="lead text-muted ">
-        <font style="vertical-align: inherit;">
-          <font class="textoBranco" style="vertical-align: inherit;">
-            Analista de Dados | Arquitetura & Governança de Dados | AWS | SQL | Python | Power Platform | Hands-on
-          </font>
-        </font>
-      </p>
-      <a href="https://www.linkedin.com/in/jhone-diniz-bb87481a4/"><i class="icones fab fa-linkedin"></i></a>
-      <a href="https://github.com/JhoneLucas"><i class="icones fab fa-github"></i></a>
-      <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5515991929611&text=Ol%C3%A1"><i
-          class="icones fab fa-whatsapp"></i></a>
-    </div>
-  </section class="jumbotron text-center corSecundaria ">
-  <div class="album py-5 bg-light" id="projetos">
-    <div class="container">
-      <h2 style=" padding-top:90px; " class="jumbotrom heading text-center titulosAzul">Projetos</h2>
-      <br>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="card mb-4 box-shadow">
-            <img class="card-img-top"
-              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-              alt="Miniatura [100%x225]" style="height: 300px; width: 100%; display: block;" src="imagens/pbi.png"
-              data-holder-rendered="true">
-            <div class="card-body">
-              <p class="card-text">
-                <font style="vertical-align: inherit;">
-                  <font style="vertical-align: inherit;">Este dashboard, desenvolvido durante o curso Power BI
-                    Experience de Leonardo Karpinski, oferece uma visão clara e concisa da margem de lucro do seu
-                    negócio. Através da análise combinada da receita e dos custos, o dashboard calcula e apresenta a
-                    margem de lucro de forma visual e intuitiva, permitindo identificar rapidamente áreas de
-                    oportunidade e otimização.
-                  </font>
-                  <font style="vertical-align: inherit;"></font>
-                </font>
-              </p>
-              <ul>
-                <li>Microsoft Power BI</li>
-                <li>Microsoft Excel</li>
-              </ul>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a
-                    href="https://app.powerbi.com/view?r=eyJrIjoiNWJhYzEwMWMtNGY5NC00MWI3LTk2OTYtZWY0Y2JiMzM1N2I5IiwidCI6ImI2YTc3ZDdkLTBiODctNGIwNS1hZGQzLTE3Y2Y0OTdiYmMzZCJ9">
-                    <button type="button" class="btnLink">
-                      <font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">Ver Projeto</font>
-                      </font>
-                    </button></a>
-                </div>
-                <small class="text-muted">
-                  <font style="vertical-align: inherit;">
-                    <font style="vertical-align: inherit;">Atualizado em janeiro de 2022</font>
-                  </font>
-                </small>
-              </div>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content fade-in">
+            <h2 class="greeting">Olá, eu sou</h2>
+            <h1 class="name">Jhone Diniz</h1>
+            <h3 class="role">Data Analyst & Analytics Engineer</h3>
+            <p class="description">
+                Especialista em transformar dados brutos em insights estratégicos. Experiência robusta em ecossistemas Cloud (AWS/Azure), Modelagem de Dados, Power BI e automação de processos.
+            </p>
+            <div class="hero-cta">
+                <a href="#projetos" class="btn-primary">Ver Projetos</a>
+                <a href="#contato" class="btn-secondary">Fale Comigo</a>
             </div>
-          </div>
-        </div>
-        <div style="display: block;" class="col-md-6">
-          <div class="card mb-4 box-shadow">
-            <img class="card-img-top"
-              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-              alt="Miniatura [100%x300]" src="imagens/imgDashNBA.png" data-holder-rendered="true"
-              style="height: 300px; width: 100%; display: block;">
-            <div class="card-body">
-              <p class="card-text">
-                <font style="vertical-align: inherit;">
-                  <font style="vertical-align: inherit;">
-                    Este dashboard, desenvolvido do zero durante o curso ministrado por Gerson Viergutz, oferece uma
-                    análise detalhada e comparativa das carreiras lendárias de Michael Jordan e LeBron James. Através da
-                    comparação temporada a temporada de suas principais estatísticas, o dashboard proporciona uma visão
-                    profunda da evolução e do impacto de cada jogador na história do basquete. Desenvolver este projeto
-                    foi uma experiência enriquecedora, que me proporcionou aprendizados valiosos e contribuiu
-                    significativamente para o meu desenvolvimento profissional.
-                  </font>
-                </font>
-              </p>
-              <ul>
-                <li>Microsoft Power BI</li>
-                <li>Microsoft Excel</li>
-              </ul>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a
-                    href="https://app.powerbi.com/view?r=eyJrIjoiNzFmMmY1NWYtYTM3YS00ZTEwLWE3YTItYWIyMzJjMDVhMDk5IiwidCI6ImI2YTc3ZDdkLTBiODctNGIwNS1hZGQzLTE3Y2Y0OTdiYmMzZCJ9">
-                    <button type="button" class="btnLink">
-                      <font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">Ver Projeto</font>
-                      </font>
-                    </button></a>
-                </div>
-                <small class="text-muted">
-                  <font style="vertical-align: inherit;">
-                    <font style="vertical-align: inherit;">Atualizado em março de 2023</font>
-                  </font>
-                </small>
-              </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/jhone-diniz-bb87481a4/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/JhoneLucas" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5515991929611&text=Ol%C3%A1" target="_blank"><i class="fab fa-whatsapp"></i></a>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
+        <div class="hero-image-container fade-in delay-1">
+            <div class="glow-circle"></div>
+            <img src="imagens/jhone.jpeg" alt="Jhone Diniz" class="hero-image">
+        </div>
+    </section>
 
-  <!--Sobre Mim-->
-  <section class="jumbotron text-center corPrimaria">
-    <div style=" padding-top:10px; " class="container" id="sobre-mim">
-      <h2 class="jumbotrom-heading titulosBrancos">Sobre mim</h2>
-      <br>
-      <p class="text-center lead tex textoBranco">
-        Sou Jhone Diniz, formado em Análise e Desenvolvimento de Sistemas e atualmente pós-graduando em Arquitetura e
-        Governança de Dados.
-        Com experiência sólida na área de Business Intelligence, venho atuando com foco na análise e visualização de
-        dados para apoiar decisões estratégicas em ambientes corporativos.
-        Tenho domínio de ferramentas como Power BI, SQL Server, Oracle, Power Apps, Power Automate, além de atuar com
-        soluções em nuvem como AWS e Azure.
-      </p>
-      <p class="text-center lead tex textoBranco">
-        Minha trajetória profissional é marcada pelo desenvolvimento de dashboards interativos, relatórios
-        personalizados e pela automação de processos que otimizam fluxos de trabalho e aumentam a produtividade das
-        equipes.
-        Possuo habilidade em manipular grandes volumes de dados e aplicar análises avançadas para gerar insights
-        valiosos, especialmente para áreas comerciais e estratégicas.
-        Busco constantemente me aprimorar e contribuir com soluções inovadoras e eficientes, unindo formação acadêmica
-        com experiência prática para agregar valor em projetos de dados.
-      </p>
-    </div>
-  </section>
-  <!--Experiências-->
-  <div class="album py-5 bg-light" id="projetos">
-    <div style=" padding-top:10px; " class="container " id="experiencias">
-      <h2 class="jumbotrom heading text-center titulosAzul">Experiências</h2>
-      <br>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="card mb-4 box-shadow">
-            <img class="card-img-top"
-              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-              alt="Miniatura [100%x225]" src="imagens/imgLab1.png" data-holder-rendered="true"
-              style="height: 300px; width: 100%; display: block;">
-            <div class="card-body">
-              <p class="card-text">
-                <font style="vertical-align: inherit;">
-                  <font style="vertical-align: inherit;">Durante meu estágio na LAB1, tive a oportunidade de aprofundar
-                    meus conhecimentos em desenvolvimento de software, com foco na linguagem C#.
-                    Inicialmente, fui responsável por desenvolver Add-ons para o SAP Business One, automatizando tarefas
-                    e otimizando processos.
-                    Posteriormente, assumi a manutenção de um website integrado ao SAP, utilizando a linguagem ASP.NET,
-                    o que representou um desafio estimulante e me proporcionou grande aprendizado.
-                    A LAB1 se destacou como uma das melhores empresas em que trabalhei, oferecendo um ambiente propício
-                    ao desenvolvimento profissional e projetos desafiadores que me permitiram aprimorar minhas
-                    habilidades técnicas.</font>
-                </font>
-              </p>
-              <ul>
-                <li>C# / CSharp</li>
-                <li>Visual Basic</li>
-                <li>Microsoft SQL Server</li>
-                <li>ASP.NET</li>
-                <li>VB.NET</li>
-                <li>Github</li>
-                <li>SAP Business One</li>
-              </ul>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a href="https://www.linkedin.com/company/lab1-consultoria-sap/posts/">
-                    <button type="button" class="btnLink">
-                      <font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">Linkedin</font>
-                      </font>
-                    </button></a>
+    <!-- About Section -->
+    <section class="about" id="sobre">
+        <div class="section-title fade-in">
+            <h2>Sobre Mim</h2>
+            <div class="line"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text fade-in">
+                <p>Sou formado em Análise e Desenvolvimento de Sistemas e atualmente pós-graduando em Arquitetura e Governança de Dados.</p>
+                <p>Com experiência sólida na área de Business Intelligence, venho atuando com foco na análise e visualização de dados para apoiar decisões estratégicas em ambientes corporativos. Minha trajetória é marcada pelo desenvolvimento de dashboards interativos, orquestração de pipelines de dados em nuvem e automação de processos críticos.</p>
+                <p>Busco constantemente me aprimorar e contribuir com soluções inovadoras e eficientes, unindo formação acadêmica com experiência prática para agregar valor real ao negócio.</p>
+            </div>
+            <div class="about-stats fade-in delay-1">
+                <div class="stat-card">
+                    <h3>3+</h3>
+                    <p>Anos de Experiência</p>
                 </div>
-                <small class="text-muted">
-                  <font style="vertical-align: inherit;">
-                    <font style="vertical-align: inherit;">agosto de 2021 - junho de 2022</font>
-                  </font>
-                </small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div style="display: block;" class="col-md-6">
-          <div class="card mb-4 box-shadow">
-            <img class="card-img-top"
-              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-              alt="Miniatura [100%x300]" src="imagens/imgPlime.png" data-holder-rendered="true"
-              style="height: 300px; width: 100%; display: block;">
-            <div class="card-body">
-              <p class="card-text">
-                <font style="vertical-align: inherit;">
-                  <font style="vertical-align: inherit;">Desenvolvimento de relatórios complexos e personalizados,
-                    integrando
-                    dados diretamente do banco de dados SQL Server para fornecer informações
-                    estratégicas à tomada de decisão.
-                    Gerenciamento de permissões de acesso a usuários, garantindo a segurança
-                    e a confidencialidade das informações do sistema.
-                    Análise e correção de processos de RH, otimizando fluxos de trabalho e
-                    implementando soluções automatizadas para aumentar a eficiência do
-                    departamento.
-                    Automação de tarefas repetitivas, liberando tempo para atividades mais
-                    estratégicas e reduzindo a possibilidade de erros humanos.
-                    Correção de obrigações fiscais, assegurando o cumprimento das leis e
-                    regulamentações aplicáveis, evitando multas e penalidades.</font>
-                </font>
-              </p>
-              <ul>
-                <li>Microsoft SQL Server</li>
-                <li>Excel</li>
-                <li>eSocial</li>
-                <li>TOTVS RM</li>
-              </ul>
-              <div class="d-flex justify-content-between align-items-center">
-                <small class="text-muted">
-                  <font style="vertical-align: inherit;">
-                    <font style="vertical-align: inherit;">junho de 2022 - março de 2024</font>
-                  </font>
-                </small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div style="display: block;" class="col-md-6">
-          <div class="card mb-4 box-shadow">
-            <img class="card-img-top"
-              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-              alt="Miniatura [100%x300]" src="imagens/ImgPanna.webp" data-holder-rendered="true"
-              style="height: 300px; width: 100%; display: block;">
-            <div class="card-body">
-              <p class="card-text">
-                <font style="vertical-align: inherit;">
-                  <font style="vertical-align: inherit;">Ampla experiência em análise de dados utilizando Power BI, com
-                    expertise
-                    em DAX para transformação e modelagem de informações.
-                    Proficiência em SQL Server para extração e manipulação de dados,
-                    garantindo a qualidade e a integridade das informações.
-                    Experiência em integração de dados por meio de APIs, demonstrando
-                    capacidade de trabalhar com diversas fontes de dados.
-                    Desenvolvimento de aplicações Python para automação de extração de dados
-                    de APIs, otimizando processos e reduzindo o tempo de coleta.
-                    Utilização de Power Apps para automatizar processos de inserção de dados,
-                    eliminando erros manuais e garantindo o versionamento adequado das
-                    informações.</font>
-                </font>
-              </p>
-              <ul>
-                <li>Microsoft Power BI</li>
-                <li>Microsoft SQL Server</li>
-                <li>Microsoft Share Point</li>
-                <li>Microsoft Power Automate</li>
-                <li>Microsoft Power Apps</li>
-                <li>Python</li>
-                <li>APIs</li>
-              </ul>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a href="https://www.linkedin.com/company/grupo-panna/mycompany/">
-                    <button type="button" class="btnLink">
-                      <font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">Linkedin</font>
-                      </font>
-                    </button></a>
+                <div class="stat-card">
+                    <h3>20+</h3>
+                    <p>Projetos Entregues</p>
                 </div>
-                <small class="text-muted">
-                  <font style="vertical-align: inherit;">
-                    <font style="vertical-align: inherit;">maio de 2024 - fevereiro de 2025</font>
-                  </font>
-                </small>
-              </div>
             </div>
-          </div>
         </div>
-        <div style="display: block; margin-top: -80px;" class="col-md-6">
-          <div class="card mb-4 box-shadow">
-            <img class="card-img-top"
-              data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-              alt="Miniatura [100%x300]" src="imagens/imgBV.png" data-holder-rendered="true"
-              style="height: 300px; width: 100%; display: block;">
-            <div class="card-body">
-              <p class="card-text">
-                <font style="vertical-align: inherit;">
-                  <font style="vertical-align: inherit;">Analista de Processos com experiência em melhoria contínua e
-                    otimização
-                    de processos. Proficiência em análise de dados, com habilidades em
-                    desenvolvimento de dashboards e relatórios.
-                    Experiência em integração de dados por meio de APIs e desenvolvimento de
-                    soluções de automações.
-                    Habilidades em análise de processos e identificação de oportunidades de
-                    melhoria.</font>
-                </font>
-              </p>
-              <ul>
-                <li>Microsoft Power BI</li>
-                <li>Microsoft Power Automate</li>
-                <li>Microsoft Power Apps</li>
-                <li>Microsoft Share Point</li>
-              </ul>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a href="https://www.linkedin.com/company/bureau-veritas-group/posts/?feedView=all">
-                    <button type="button" class="btnLink">
-                      <font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">Linkedin</font>
-                      </font>
-                    </button></a>
-                </div>
-                <small class="text-muted">
-                  <font style="vertical-align: inherit;">
-                    <font style="vertical-align: inherit;">fevereiro de 2025 - agosto de 2025</font>
-                  </font>
-                </small>
-              </div>
-            </div>
-          </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="habilidades">
+        <div class="section-title fade-in">
+            <h2>Minhas Habilidades</h2>
+            <div class="line"></div>
         </div>
-        <div class="row">
-          <div style="display: block;" class="col-md-6">
-            <div class="card mb-4 box-shadow">
-              <img class="card-img-top"
-                data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                alt="Miniatura [100%x300]" src="imagens/imgBemMais.jpg" data-holder-rendered="true"
-                style="height: 300px; width: 100%; display: block;">
-              <div class="card-body">
-                <p class="card-text">
-                  <font style="vertical-align: inherit;">
-                    <font style="vertical-align: inherit;">Como Analista de Dados Pleno na Bem Mais Benefícios,
-                      atuo em todo o ciclo de vida do dado dentro do ecossistema AWS.
-                      Responsável pela orquestração de pipelines de dados utilizando AWS Glue e estruturação de Data
-                      Lakes em Amazon S3.
-                      Utilizo o AWS Athena para consultas ad-hoc e análise de grandes volumes de dados,
-                      transformando informações brutas em inteligência de negócio através do QuickSight.
-                      Meu foco principal é a criação de dashboards estratégicos e a geração de insights que suportem a
-                      tomada de decisão das áreas de negócios,
-                      otimizando processos e identificando oportunidades de crescimento.</font>
-                  </font>
-                </p>
+        <div class="skills-grid">
+            <div class="skill-category fade-in">
+                <div class="skill-icon"><i class="fas fa-database"></i></div>
+                <h3>Banco de Dados & Engenharia</h3>
                 <ul>
-                  <li>SQL</li>
-                  <li>AWS Glue</li>
-                  <li>AWS Lambda</li>
-                  <li>AWS S3</li>
-                  <li>AWS Athena</li>
-                  <li>AWS QuickSight</li>
+                    <li>SQL Server & Oracle</li>
+                    <li>AWS Glue, Athena, S3</li>
+                    <li>Python (Pandas, APIs)</li>
+                    <li>Modelagem Dimensional</li>
                 </ul>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a href="https://www.linkedin.com/company/bemmaisbeneficios/posts/?feedView=all">
-                      <button type="button" class="btnLink">
-                        <font style="vertical-align: inherit;">
-                          <font style="vertical-align: inherit;">Linkedin</font>
-                        </font>
-                      </button></a>
-                  </div>
-                  <small class="text-muted">
-                    <font style="vertical-align: inherit;">
-                      <font style="vertical-align: inherit;">fevereiro de 2026 - Atual</font>
-                    </font>
-                  </small>
-                </div>
-              </div>
             </div>
-          </div>
+            <div class="skill-category fade-in delay-1">
+                <div class="skill-icon"><i class="fas fa-chart-pie"></i></div>
+                <h3>Business Intelligence</h3>
+                <ul>
+                    <li>Microsoft Power BI</li>
+                    <li>DAX & Power Query</li>
+                    <li>AWS QuickSight</li>
+                    <li>Storytelling com Dados</li>
+                </ul>
+            </div>
+            <div class="skill-category fade-in delay-2">
+                <div class="skill-icon"><i class="fas fa-cogs"></i></div>
+                <h3>Automação & Processos</h3>
+                <ul>
+                    <li>Power Automate</li>
+                    <li>Power Apps</li>
+                    <li>SharePoint</li>
+                    <li>Governança de Dados</li>
+                </ul>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-  </div>
-  <!--Contato-->
-  <section>
-    <div id="contatos">
-      <h2 style=" padding-top:10px; " class="jumbotrom heading text-center titulosBrancos">Contato</h2>
-      <div class="container-fluid">
-        <h3 class="text-center textoBranco">Disponível para oportunidades</h3>
-        <h4 class="text-center textoBranco"><i class="textoBranco fab fa-google"></i> Jhonylucasmorisdiniz@gmail.com
-        </h4>
-        <center>
-          <a href="https://www.linkedin.com/in/jhone-diniz-bb87481a4/"><i class="textoBranco fab fa-linkedin"></i></a>
-          <a href="https://github.com/JhoneLucas"><i class="textoBranco fab fa-github"></i></a>
-          <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5515991929611&text=Ol%C3%A1"><i
-              class="textoBranco fab fa-whatsapp"></i></a>
-        </center>
-      </div>
-    </div>
-  </section>
-  <section>
-    <div id="contatos">
-      <h2 class="jumbotrom heading text-center textoBranco"></h2>
-      <br>
-      <div class="container-fluid">
-        <h3 class="text-center"></h3>
-        <h4 class="text-center textoBranco"></h4>
-      </div>
-    </div>
-  </section>
-</body>
+    </section>
 
+    <!-- Experience Section -->
+    <section class="experience" id="experiencia">
+        <div class="section-title fade-in">
+            <h2>Trajetória Profissional</h2>
+            <div class="line"></div>
+        </div>
+        <div class="timeline">
+            <!-- Bem Mais -->
+            <div class="timeline-item fade-in">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <div class="timeline-header">
+                        <img src="imagens/imgBemMais.jpg" alt="Bem Mais Benefícios">
+                        <div>
+                            <h3>Analista de Dados Pleno</h3>
+                            <h4>Bem Mais Benefícios</h4>
+                        </div>
+                        <span class="timeline-date">Fev 2026 - Atual</span>
+                    </div>
+                    <p>Atuação em todo o ciclo de vida do dado no ecossistema AWS. Orquestração de pipelines com AWS Glue, estruturação de Data Lakes em S3 e consultas ad-hoc via Athena. Desenvolvimento de dashboards estratégicos em QuickSight.</p>
+                </div>
+            </div>
+            <!-- Bureau Veritas -->
+            <div class="timeline-item fade-in">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <div class="timeline-header">
+                        <img src="imagens/imgBV.png" alt="Bureau Veritas">
+                        <div>
+                            <h3>Analista de Processos</h3>
+                            <h4>Bureau Veritas Group</h4>
+                        </div>
+                        <span class="timeline-date">Fev 2025 - Ago 2025</span>
+                    </div>
+                    <p>Otimização de processos corporativos. Desenvolvimento de dashboards em Power BI e soluções de automação complexas utilizando a suíte Power Platform (Power Apps e Power Automate).</p>
+                </div>
+            </div>
+            <!-- Panna -->
+            <div class="timeline-item fade-in">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <div class="timeline-header">
+                        <img src="imagens/ImgPanna.webp" alt="Grupo Panna">
+                        <div>
+                            <h3>Analista de Dados</h3>
+                            <h4>Grupo Panna</h4>
+                        </div>
+                        <span class="timeline-date">Mai 2024 - Fev 2025</span>
+                    </div>
+                    <p>Expertise em modelagem e transformação de dados com DAX no Power BI. Desenvolvimento de scripts Python para extração de dados via APIs. Automação de processos com Power Automate.</p>
+                </div>
+            </div>
+            <!-- Plime -->
+            <div class="timeline-item fade-in">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <div class="timeline-header">
+                        <img src="imagens/imgPlime.png" alt="Plime">
+                        <div>
+                            <h3>Analista de Dados / RH</h3>
+                            <h4>Plime</h4>
+                        </div>
+                        <span class="timeline-date">Jun 2022 - Mar 2024</span>
+                    </div>
+                    <p>Desenvolvimento de relatórios complexos em SQL Server. Gestão de permissões, análise de dados do TOTVS RM e automação de rotinas de RH e obrigações fiscais.</p>
+                </div>
+            </div>
+            <!-- LAB1 -->
+            <div class="timeline-item fade-in">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <div class="timeline-header">
+                        <img src="imagens/imgLab1.png" alt="LAB1">
+                        <div>
+                            <h3>Desenvolvedor (Estágio)</h3>
+                            <h4>LAB1 Consultoria SAP</h4>
+                        </div>
+                        <span class="timeline-date">Ago 2021 - Jun 2022</span>
+                    </div>
+                    <p>Desenvolvimento de Add-ons para SAP Business One em C#. Manutenção de websites integrados ao SAP utilizando ASP.NET e SQL Server.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projetos">
+        <div class="section-title fade-in">
+            <h2>Projetos em Destaque</h2>
+            <div class="line"></div>
+        </div>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card glass-card fade-in">
+                <div class="project-image">
+                    <img src="imagens/pbi.png" alt="Dashboard Margem de Lucro">
+                </div>
+                <div class="project-info">
+                    <h3>Análise de Margem de Lucro</h3>
+                    <p>Dashboard desenvolvido no Power BI para oferecer uma visão clara da margem de lucro, analisando receitas e custos para identificar oportunidades de otimização.</p>
+                    <div class="project-tags">
+                        <span>Power BI</span>
+                        <span>DAX</span>
+                        <span>Excel</span>
+                    </div>
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiNWJhYzEwMWMtNGY5NC00MWI3LTk2OTYtZWY0Y2JiMzM1N2I5IiwidCI6ImI2YTc3ZDdkLTBiODctNGIwNS1hZGQzLTE3Y2Y0OTdiYmMzZCJ9" target="_blank" class="btn-link">Visualizar Relatório <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card glass-card fade-in delay-1">
+                <div class="project-image">
+                    <img src="imagens/imgDashNBA.png" alt="Dashboard NBA">
+                </div>
+                <div class="project-info">
+                    <h3>Comparativo: Jordan vs LeBron</h3>
+                    <p>Análise estatística detalhada das carreiras de Michael Jordan e LeBron James. Comparativo temporada a temporada criado do zero para insights no basquete.</p>
+                    <div class="project-tags">
+                        <span>Power BI</span>
+                        <span>Modelagem</span>
+                        <span>Data Viz</span>
+                    </div>
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiNzFmMmY1NWYtYTM3YS00ZTEwLWE3YTItYWIyMzJjMDVhMDk5IiwidCI6ImI2YTc3ZDdkLTBiODctNGIwNS1hZGQzLTE3Y2Y0OTdiYmMzZCJ9" target="_blank" class="btn-link">Visualizar Relatório <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contato">
+        <div class="contact-container glass-card fade-in">
+            <h2>Vamos trabalhar juntos?</h2>
+            <p>Estou aberto a novas oportunidades e parcerias. Sinta-se à vontade para entrar em contato comigo!</p>
+            <div class="contact-methods">
+                <a href="mailto:jhonylucasmorisdiniz@gmail.com" class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>jhonylucasmorisdiniz@gmail.com</span>
+                </a>
+                <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5515991929611&text=Ol%C3%A1" target="_blank" class="contact-item">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>(15) 99192-9611</span>
+                </a>
+            </div>
+            <a href="mailto:jhonylucasmorisdiniz@gmail.com" class="btn-primary mt-4">Enviar Mensagem</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Jhone Diniz. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
 </html>
